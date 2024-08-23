@@ -1,0 +1,49 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 0 0 0;
+}
+
+.img {
+  object-fit: contain;
+  height: 400px;
+}
+
+.img-container p {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+/* .sbs {
+  display: flex;
+  gap: 1rem;
+}
+
+.label-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+input {
+  width: 15rem;
+  /* height: 1rem; */
